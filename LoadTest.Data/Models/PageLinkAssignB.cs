@@ -1,0 +1,14 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace LoadTest.Data.Models
+{
+    public partial class PageLinkAssignB
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public DateTime CreatedDate { get; set; }
+        public string Status { get; set; } = string.Empty;
+        
+    }
+}
